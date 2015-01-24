@@ -9,8 +9,9 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### FileList
-1. run_analysis.R: main code
+1. run_analysis.R : main code for performing
 2. TidyData.txt :the tidy data set created in step 5 of the instructions
+3. codebooks.md : the code book describing the variables
 
 ### My code work
 1. Read files X_test,X_train.y_test,y_train,Subject_test,Subject_train,features and activity_lables text files into dataframes.
