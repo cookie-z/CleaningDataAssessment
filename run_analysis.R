@@ -1,5 +1,5 @@
 ## load library dplyr
-library(dplyr)
+library(plyr); library(dplyr)
 ##Read files features and activity_lables text files into dataframes
 activelabel <- read.table("UCI HAR Dataset/activity_labels.txt")
 features <- read.table("UCI HAR Dataset/features.txt")
