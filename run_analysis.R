@@ -36,6 +36,6 @@ tidydata1 <- cbind(extrdata,totaly)
 ## From the data set in step 4
 attach(extrdata)
 ## Take mean of observations per activity per subject. (180*68). 
-tidydata2 <- aggregate(extrdata, by=list(Activity=Activity,Subject=Subject), FUN=mean)
+tidydata2 <- aggregate(extrdata, by=list(Activity=totaly$Activity,Subject=totaly$Subject), FUN=mean)
 ## write to TidyData.txt txt file
 write.table(x=tidydata2,"TidyData.txt",row.names=FALSE)
